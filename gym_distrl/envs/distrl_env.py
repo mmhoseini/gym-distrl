@@ -4,7 +4,7 @@ from gym.utils import seeding
 import numpy as np
 from os import path
 
-class DistEnv(gym.Env):
+class DistrlEnv(gym.Env):
 
     def __init__(self):
         self.Pmax = np.array([1,2,3])
